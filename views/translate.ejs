@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+</head>
+<body>
+    <h1>Enter Text to translate : </h1>
+    <form action="/postText" method="POST">
+        <label for="orignal">Enter Text : </label><br>
+        <textarea name="postReq[orignal]" id="orignal" cols="50" rows="5" required></textarea><br>
+        <label for="fromLang">From Language :</label>
+        <select name="postReq[fromLang]" id="fromLang" required>
+            <option value="en">English</option>
+            <option value="ko">Korean</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+        </select>
+        <label for="toLang"> To Language :</label>
+        <select name="postReq[toLang]" id="toLang" required>
+            <option value="en">English</option>
+            <option value="ko">Korean</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
