@@ -63,4 +63,3 @@ There are some areas of improvement though.
       This schema will reduce dplication. I was not able to implement it due to lack of time.
 * Ihave used translate-google NPM package that I suspect is reletively slower. So maybe I can change it.
 
-## I have done all that I was to implement if you want any changes then do let me know.
